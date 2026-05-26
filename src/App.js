@@ -11,16 +11,25 @@ function App() {
 
   function renderContent() {
     switch (currentURL) {
+          // En tu PC local será "/" y en GitHub será "/star-trek/"
           case "/":
+          case "/star-trek/":
             return <Home/>
-          case "/personajes":
+          
+          case "/star-trek/personajes":
+          case "/personajes": // Dejamos este por si pruebas en local
             return <Personajes/>
+          
+          case "/star-trek/citas":
           case "/citas":
             return <Citas/>
+          
+          case "/star-trek/episodios":
           case "/episodios":
             return <Episodios/>
+          
           default:
-            return <Home/> //Aca podemos retornar una pagina 404
+            return <Home/> 
         }
   }
 

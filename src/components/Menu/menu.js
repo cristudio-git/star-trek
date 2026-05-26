@@ -8,25 +8,24 @@ function Menu() {
           <ul className="menu">
             <MenuItem
                 text='Home'
-                link='/'
+                link='/star-trek/' 
             />
             <MenuItem
                 text='Episodios'
-                link='/episodios'
+                link='/star-trek/episodios'
             />
             <MenuItem
                 text='Personajes'
-                link='/personajes'
+                link='/star-trek/personajes'
             />
             <MenuItem
                 text='Citas'
-                link='/citas'
+                link='/star-trek/citas'
             />
           </ul>
         </nav>
     </header>
       )
 }
-
 
 export default Menu;
