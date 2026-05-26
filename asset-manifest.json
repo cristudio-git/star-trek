@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/star-trek/static/css/main.dcaea378.css",
+    "main.js": "/star-trek/static/js/main.987744cc.js",
+    "static/js/453.1ab6b9e7.chunk.js": "/star-trek/static/js/453.1ab6b9e7.chunk.js",
+    "static/media/startrekuniverse.png": "/star-trek/static/media/startrekuniverse.9256fd511699cd4926fa.png",
+    "index.html": "/star-trek/index.html",
+    "main.dcaea378.css.map": "/star-trek/static/css/main.dcaea378.css.map",
+    "main.987744cc.js.map": "/star-trek/static/js/main.987744cc.js.map",
+    "453.1ab6b9e7.chunk.js.map": "/star-trek/static/js/453.1ab6b9e7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcaea378.css",
+    "static/js/main.987744cc.js"
+  ]
+}
