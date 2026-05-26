@@ -1,4 +1,4 @@
-#Pagina web sobre Star Trek
+# Pagina web sobre Star Trek
 
 Utilizamos esta pagina para aprender React y sus componentes.
 
