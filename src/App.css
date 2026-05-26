@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+:root {
+  --background-color: #F8F9FA;       
+  --text-color: #1A1D20;             
+  /* Estructura y Menús */
+  --menu-bg-color: #FFFFFF;          
+  --menu-border-color: #CED4DA;      
+  --menu-text-color: #495057;        
+  --menu-text-hover-color: #0056B3;  
+
+  /* Componentes Interactivos (Botones y Enlaces) */
+  --button-background-color: #D32F2F;
+  --button-background-color-hover: #B71C1C; 
+  --button-text-color: #FFFFFF;
+  --active: #FBC02D;                 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (prefers-color-scheme: dark) {
+  :root {
+   
+    --background-color: #0B0E14;      
+    --text-color: #F8F9FA;             
+    
+    /* Estructura y Menús */
+    --menu-bg-color: #161B22;          
+    --menu-border-color: #FF9F1C;      
+    --menu-text-color: #E0E0E0;
+    --menu-text-hover-color: #4CC9F0;  
+    
+    /* Componentes Interactivos (Botones y Enlaces) */
+    --button-background-color: #FF9F1C; 
+    --button-background-color-hover: #E68A00;
+    --button-text-color: #0B0E14;      
+    --active: #F72585;                 
   }
 }
 
-.App-header {
-  background-color: #282c34;
+/* ==========================================================================
+   ESTILOS DE MAQUETACIÓN Y UX DE LA APP
+   ========================================================================== */
+body, html, #root {
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color); 
+}
+
+.App {
+  height: 100%;
+  background-color: var(--background-color);
+  color: var(--text-color);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
-.App-link {
-  color: #61dafb;
+main {
+  flex: 1;
+  padding: 24px; 
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+button {
+  background-color: var(--button-background-color);
+  color: var(--button-text-color, white);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px; 
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--button-background-color-hover);
+}
+
+.footer {
+  text-align: center;
 }

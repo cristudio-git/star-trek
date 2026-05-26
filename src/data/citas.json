@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "autor": "Capitán James T. Kirk",
+    "frase": "Segunda estrella a la derecha. Todo recto hacia el mañana.",
+    "episodio": "Star Trek VI: Aquel país desconocido (1991)"
+  },
+  {
+    "id": 2,
+    "autor": "Capitán Spock",
+    "frase": "He sido, y siempre seré, su amigo.",
+    "episodio": "Star Trek II: La ira de Khan (1982)"
+  },
+  {
+    "id": 3,
+    "autor": "Tuvok",
+    "frase": "No confundan la calma con que es fácil.",
+    "episodio": "Estado de flujo (State of Flux)"
+  },
+  {
+    "id": 4,
+    "autor": "Capitán Jean-Luc Picard",
+    "frase": "Se puede no cometer ningún error y aun así perder. Eso no es una debilidad; es la vida.",
+    "episodio": "Peak Performance (Las normas del combate)"
+  },
+  {
+    "id": 5,
+    "autor": "Capitán James T. Kirk",
+    "frase": "¡No quiero que me quiten el dolor! ¡Necesito mi dolor! ¡El dolor es lo que nos hace quienes somos!",
+    "episodio": "Película Star Trek V: La última frontera (1989)"
+  },
+  {
+    "id": 6,
+    "autor": "Jefe Miles O'Brien",
+    "frase": "No es que te odie a ti, cardasiano. Odio en lo que me convertí por culpa de ti.",
+    "episodio": "The Wounded (Los heridos)"
+  },
+  {
+    "id": 7,
+    "autor": "Ben Sisko",
+    "frase": "Es fácil ser un santo en el paraíso",
+    "episodio": "Los Maquis, Parte II"
+  },
+  {
+    "id": 8,
+    "autor": "Spock",
+    "frase": "No apruebo. Entiendo.",
+    "episodio": "A Taste of Armageddon"
+  },
+  {
+    "id": 9,
+    "autor": "Capitán Jean-Luc Picard",
+    "frase": "Con el primer eslabón, se forja la cadena. La primera arenga censurada, el primer pensamiento prohibido, la primera libertad negada, nos encadenan a todos de forma irrevocable.",
+    "episodio": "The Drumhead (Juicio sumario)"
+  },
+  {
+    "id": 10,
+    "autor": "Capitán Jean-Luc Picard",
+    "frase": "... la distancia entre la sospecha legítima y la paranoia descontrolada es mucho más corta de lo que creemos.",
+    "episodio": "The Drumhead (Juicio sumario)"
+  },
+  {
+    "id": 11,
+    "autor": "Kor, el Maestro Dahar",
+    "frase": "Saboreen el fruto de la vida, mis jóvenes amigos. Tiene un sabor dulce cuando todavía está recién arrancado de la vid, pero no vivan demasiado. Con el tiempo, el sabor se vuelve amargo ...",
+    "episodio": "Once More Unto the Breach"
+  },
+  {
+    "id": 12,
+    "autor": "Capitán Jean-Luc Picard",
+    "frase": "La adquisición de riqueza ya no es la fuerza que mueve nuestras vidas. Trabajamos para mejorarnos a nosotros mismos y a toda la humanidad.",
+    "episodio": "Película Star Trek: First Contact (Primer contacto)"
+  },
+  {
+    "id": 13,
+    "autor": "Neelix (haciéndose pasar por el Gran Proxy)",
+    "frase": "Regla de Adquisición #299: “Cuando le sacas provecho a alguien, nunca está de más darle las gracias. Así, la próxima vez es más fácil volver a aprovecharte de esa persona.”",
+    "episodio": "False Profits"
+  },
+  {
+    "id": 14,
+    "autor": "Sr. Spock",
+    "frase": "Con el tiempo, puede que te des cuenta de que *tener* no es tan agradable como *desear*. No es lógico, pero muchas veces es verdad.",
+    "episodio": "Amok Time"
+  },
+  {
+    "id": 15,
+    "autor": "Capitán James T. Kirk",
+    "frase": "De mi amigo solo puedo decir esto. De todas las almas que he conocido en mis viajes, la de él era la más... humana.",
+    "episodio": "Star Trek II: La ira de Khan"
+  },
+  {
+    "id": 16,
+    "autor": "Capitán Jean-Luc Picard",
+    "frase": "Creemos que ya llegamos súper lejos. Tortura de herejes, quema de brujas, todo eso ya es historia antigua. Pero luego, antes de que parpadees, de repente amenaza con volver a empezar.",
+    "episodio": "The Drumhead (Juicio sumario)"
+  },
+  {
+    "id": 17,
+    "autor": "Capitán Jean-Luc Picard al Almirante Dougherty",
+    "frase": "¿Cuánta gente hace falta, almirante, antes de que se vuelva incorrecto? Hmm. ¿Mil, cincuenta mil, un millón? ¿Cuánta gente hace falta, almirante?",
+    "episodio": "Película Star Trek: Insurrection"
+  },
+  {
+    "id": 18,
+    "autor": "Spock",
+    "frase": "Larga vida y prosperidad.",
+    "episodio": "La época de Amok (TOS)"
+  },
+  {
+    "id": 19,
+    "autor": "Capitán James T. Kirk",
+    "frase": "El peligro es nuestro negocio.",
+    "episodio": "Metamorfosis (TOS)"
+  }
+]

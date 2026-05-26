@@ -1,0 +1,181 @@
+/* src/components/personajes.css */
+
+.personajes-page {
+  padding: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.personajes-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Buscador */
+.buscador-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.buscador-input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid var(--menu-border-color);
+  background: rgba(255, 255, 255, 0.1);
+  color: black;
+  font-size: 16px;
+}
+
+.buscador-btn {
+  padding: 12px 24px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--button-background-color);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.buscador-btn:hover {
+  background-color: var(--button-background-color-hover);
+}
+
+.mensaje-estado, .mensaje-vacio {
+  text-align: center;
+  font-size: 16px;
+  margin: 40px 0;
+}
+
+/* Grid de Personajes */
+.personajes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+/* Estructura de la Tarjeta */
+.personaje-card {
+  border: 1px solid var(--menu-border-color);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Corta la imagen para que respete los bordes redondeados */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.personaje-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Manejo de la Imagen */
+.personaje-foto-wrapper {
+  width: 100%;
+  height: 280px; /* Altura fija para que todas las tarjetas midan igual */
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid var(--menu-border-color);
+}
+
+.personaje-foto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Recorta la imagen proporcionalmente para llenar el espacio */
+  object-position: top center; /* Enfoca principalmente los rostros */
+}
+
+/* Placeholder si no hay foto */
+.personaje-foto-placeholder {
+  color: #555;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Contenido inferior de la tarjeta */
+.personaje-body {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.personaje-nombre {
+  margin: 0 0 10px 0;
+  color: #ffb703; /* Amarillo Trek corporativo */
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.personaje-datos {
+  font-size: 13.5px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.personaje-datos p {
+  margin: 4px 0;
+}
+
+/* Etiquetas / Tags */
+.tags-container {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  color: white;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.tag-espejo { background-color: #d62828; }
+.tag-kelvin { background-color: #8338ec; }
+.tag-principal { background-color: #2a9d8f; }
+
+/* Paginación */
+.paginacion-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.paginacion-info {
+  color: white;
+  font-weight: 500;
+}
+
+.paginacion-btn {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--button-background-color);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.paginacion-btn:hover:not(:disabled) {
+  background-color: var(--button-background-color-hover);
+}
+
+.paginacion-btn:disabled {
+  background-color: #444;
+  color: #888;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
