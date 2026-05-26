@@ -2,7 +2,8 @@
   "name": "star-trek",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sercristian.github.io/star-trek",
+  "homepage": "https://cristudio-git.github.io/star-trek",
+  
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
